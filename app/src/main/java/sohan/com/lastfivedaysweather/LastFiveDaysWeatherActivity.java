@@ -24,6 +24,8 @@ public class LastFiveDaysWeatherActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.last_five_days_weather_list);
         initView();
+
+
         getWeatherList();
     }
 
